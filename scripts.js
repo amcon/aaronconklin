@@ -15,4 +15,47 @@ $('.fa-angle-double-down').click(function(event) {
 });
 
 
+$('.logo').click(function(event) {
+  window.location.href = "index.html";
+});
+
+setTimeout(function() {
+  if (typeof google === 'object' && typeof google.maps === 'object') {
+      myMap();
+      console.log('map loaded');
+    } else {
+      $('#map').css('background-color', 'white');
+      console.log('map did not load');
+    };
+}, 1000);
+
+var mapOptions;
+var map;
+var marker;
+
+function myMap() {
+  mapOptions = {
+      center: new google.maps.LatLng(40.694812, -73.952645),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+
+  map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  marker = new google.maps.Marker({position: new google.maps.LatLng(40.694812, -73.952645)});
+
+  marker.setMap(map);
+};
+
+$('#theaterengine').click(function(event) {
+  window.location.href = "theaterengine.html";
+});
+
+$('#nissan').click(function(event) {
+  window.location.href = "nissan.html";
+});
+
+$('#goodsantiques').click(function(event) {
+  window.location.href = "goodsantiques.html";
+});
+
 });
