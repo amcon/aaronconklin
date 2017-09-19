@@ -487,7 +487,7 @@ nav a:hover {
 /* CONTACT PAGE */
 
 #contact-intro {
-  background-color: (240, 240, 240);
+  background-color: rgb(240, 240, 240);
   min-height: 600px;
   padding-bottom: 200px;
   box-sizing: border-box;
@@ -585,7 +585,7 @@ nav a:hover {
   background-image: url("images/nissan-leaf.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: left-bottom;
+  background-position: left bottom;
   background-size: 100%;
 }
 
