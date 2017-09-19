@@ -818,7 +818,8 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: 600px;
+  padding: 0;
 }
 
 .intro-text .fa-angle-double-down {
@@ -928,7 +929,8 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: 600px;
+  padding: 0;
 }
 
 .intro-text .fa-angle-double-down {
@@ -1038,7 +1040,8 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: 600px;
+  padding: 0;
 }
 
 .intro-text .fa-angle-double-down {
@@ -1148,7 +1151,8 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: 600px;
+  padding: 0;
 }
 
 .intro-text .fa-angle-double-down {
