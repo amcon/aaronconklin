@@ -3,6 +3,7 @@
 body {
   margin: 0;
   min-width: 1200px;
+  background-color: rgb(0, 5, 15);
 }
 
 nav {
@@ -884,10 +885,16 @@ and (orientation: landscape) {
 
 #nissan-intro {
   background-attachment: initial;
+  background-size: 100%;
+  min-height: 600px;
 }
 
 #goodsantiques-intro {
   background-attachment: initial;
+}
+
+nav {
+  height: 100%;
 }
 
 }
@@ -1031,10 +1038,16 @@ and (orientation: landscape) {
 
 #nissan-intro {
   background-attachment: initial;
+  background-size: 100%;
+  min-height: 600px;
 }
 
 #goodsantiques-intro {
   background-attachment: initial;
+}
+
+nav {
+  height: 100%;
 }
 
 }
@@ -1178,10 +1191,16 @@ and (orientation: landscape) {
 
 #nissan-intro {
   background-attachment: initial;
+  background-size: 100%;
+  min-height: 600px;
 }
 
 #goodsantiques-intro {
   background-attachment: initial;
+}
+
+nav {
+  height: 100%;
 }
 
 }
@@ -1325,10 +1344,16 @@ and (orientation: landscape) {
 
 #nissan-intro {
   background-attachment: initial;
+  background-size: 100%;
+  min-height: 600px;
 }
 
 #goodsantiques-intro {
   background-attachment: initial;
+}
+
+nav {
+  height: 100%;
 }
 
 }
