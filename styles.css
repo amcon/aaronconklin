@@ -211,12 +211,13 @@ nav a:hover {
 
 .who {
   min-height: 500px;
-  padding: 0 200px 0 100px;
+  padding: 100px 200px 100px 100px;
   background-color: rgb(40, 80, 106);
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .who p {
