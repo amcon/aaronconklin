@@ -583,7 +583,7 @@ nav a:hover {
   background-image: url("images/nissan-leaf.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: left-bottom;
   background-size: 100%;
 }
 
@@ -638,4 +638,105 @@ nav a:hover {
   font-size: 30px;
 }
 
+/* MQ */
 
+@media only screen and (max-width: 1135px) {
+
+#home-intro {
+  background-size: 120%;
+}
+
+#theaterengine-intro {
+  background-size: 120%;
+}
+
+#nissan-intro {
+  background-size: 120%;
+}
+
+#goodsantiques-intro {
+  background-size: 120%;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+
+#home-intro {
+  background-size: 150%;
+}
+
+#theaterengine-intro {
+  background-size: 150%;
+}
+
+#nissan-intro {
+  background-size: 150%;
+}
+
+#goodsantiques-intro {
+  background-size: 150%;
+}
+
+}
+
+@media only screen and (max-width: 760px) {
+
+#home-intro {
+  background-size: 200%;
+}
+
+#theaterengine-intro {
+  background-size: 200%;
+}
+
+#nissan-intro {
+  background-size: 200%;
+}
+
+#goodsantiques-intro {
+  background-size: 200%;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+#home-intro {
+  background-size: 250%;
+}
+
+#theaterengine-intro {
+  background-size: 250%;
+}
+
+#nissan-intro {
+  background-size: 250%;
+}
+
+#goodsantiques-intro {
+  background-size: 250%;
+}
+
+}
+
+
+@media only screen and (max-width: 465px) {
+
+#home-intro {
+  background-size: 300%;
+}
+
+#theaterengine-intro {
+  background-size: 300%;
+}
+
+#nissan-intro {
+  background-size: 300%;
+}
+
+#goodsantiques-intro {
+  background-size: 300%;
+}
+
+}
