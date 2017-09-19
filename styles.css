@@ -466,7 +466,7 @@ nav a:hover {
   font-family: 'Comfortaa', cursive;
   letter-spacing: 3px;
   margin: 0;
-  padding-bottom: 15px;
+  padding: 10px 0;
 }
 
 #short {
@@ -750,6 +750,11 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation: portrait) {
 
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 body {
   min-width: initial;
 }
@@ -806,12 +811,33 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation: landscape) {
 
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
 }
 
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
+
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 body {
   min-width: initial;
@@ -868,6 +894,22 @@ body {
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: landscape) {
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
 
 }
 
@@ -876,6 +918,11 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 body {
   min-width: initial;
 }
@@ -932,12 +979,33 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: landscape) {
 
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
 }
 
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
+
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 body {
   min-width: initial;
@@ -994,5 +1062,21 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
 
 }
