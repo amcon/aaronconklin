@@ -101,7 +101,7 @@ nav a:hover {
   background-color: rgb(40, 80, 106);
   -webkit-text-stroke: 3px rgb(40, 80, 106);
   position: fixed;
-  top: 100px;
+  top: 125px;
   left: 85%;
   transition: 0.2s;
   z-index: 3;
