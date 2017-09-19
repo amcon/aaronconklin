@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  min-width: 1200px;
+}
+
+nav {
+  width: 0;
+  position: fixed;
+  font-size: 0;
+}
+
+.intro {
+  min-height: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 100px 0 100px;
+  background-image: url("images/web_dev_landscape.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: white;
+}
+
+.intro header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro header h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.intro header .fa-bars {
+  font-size: 30px;
+  font-weight: lighter;
+  background-color: rgb(40, 80, 106);
+  padding: 15px 20px;
+  -webkit-text-stroke: 3px rgb(40, 80, 106);
+  position: fixed;
+  top: 100px;
+  left: 85%;
+}
+
+.intro-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-text p {
+  font-family: 'Rufina', serif;
+  font-weight: lighter;
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  line-height: 40px;
+}
+
+.intro-text .fa-angle-double-down {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1.5px solid white;
+  border-bottom: none;
+  font-size: 30px;
+  margin-top: 25px;
+  height: 70px;
+  width: 85px;
+}
+
+.intro-text .fa-angle-double-down:hover {
+  cursor: pointer;
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+.who {
+  min-height: 500px;
+  padding: 0 200px 0 100px;
+  background-color: rgb(40, 80, 106);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who p {
+  font-size: 30px;
+  font-family: 'Rufina', serif;
+  font-weight: lighter;
+  line-height: 60px;
+  color: rgb(209, 207, 211);
+  margin: 0;
+}
+
+.who .white {
+  color: white;
+}
+
+.who .small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: block;
+  border-bottom: 1px solid white;
+  font-family: 'Comfortaa', cursive;
+  line-height: 30px;
+  margin-top: 25px;
+  width: 105px;
+}
+
+.who .small:hover {
+  color: rgb(209, 207, 211);
+  cursor: pointer;
+}
+
+.clients {
+  min-height: 400px;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  padding: 100px 0;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+}
+
+.clients .small {
+  display: block;
+  width: 1100px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+.project {
+  width: 30%;
+}
+
+.project .project-img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.project .project-img:hover {
+  opacity: 0.1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.project .project-img-overlay:hover .more{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.project .project-img-overlay {
+  height: 230px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  z-index: 1;
+  position: relative;
+  background-color: rgb(0, 5, 15);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  position: absolute;
+  font-size: 15px;
+  margin: 0;
+  font-weight: lighter;
+  opacity: 0;
+}
+
+#nissan .project-img {
+  background-image: url("images/nissan-leaf.jpg");
+  background-size: 120%;
+  background-position: left;
+}
+
+#theaterengine .project-img {
+  background-image: url("images/theaterengine.jpg");
+  background-size: 120%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+#goodsantiques .project-img {
+  background-image: url("images/about-page.jpg");
+  background-size: 120%;
+  background-position: center-bottom;
+  padding: 0;
+}
+
+.project .project-img img {
+  width: 80%;
+}
+
+#nissan img {
+  width: 20%;
+}
+
+#goodsantiques .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 50, 50, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#goodsantiques img {
+  margin: 10px;
+  width: 90%;
+}
+
+#theaterengine img {
+  margin-bottom: 15px;
+}
+
+.project h2 {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.project h4 {
+  font-size: 12px;
+}
+
+.footer {
+  padding: 100px 100px 20px 100px;
+  min-height: 400px;
+  background-color: rgb(0, 05, 15);
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.footer footer {
+  border-top: .5px solid rgb(160, 160, 160);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer footer .footer-text {
+  display: flex;
+}
+
+.footer footer .footer-text a, .footer footer .footer-text p {
+  color: rgb(160, 160, 160);
+  margin: 30px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.footer footer .footer-text a:first-of-type {
+  margin-left: 0;
+}
+
+.footer footer .footer-text a:hover {
+  color: white;
+}
+
+.footer footer .footer-text p {
+  margin-right: 0;
+}
