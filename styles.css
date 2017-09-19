@@ -211,6 +211,10 @@ nav a:hover {
   background-size: 100%;
 }
 
+#home-intro .intro-text p {
+  margin-bottom: 100px;
+}
+
 .who {
   min-height: 500px;
   padding: 100px 200px 100px 100px;
