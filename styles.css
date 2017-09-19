@@ -741,3 +741,258 @@ nav a:hover {
 }
 
 }
+
+
+/* MQ phones & tablets */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+
+body {
+  min-width: initial;
+}
+
+.projects {
+  width: 100%;
+}
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
+.who {
+  padding: 100px 200px 100px 100px;
+}
+
+.clients {
+  padding: 100px 50px;
+}
+
+.clients .small {
+  width: 100%;
+}
+
+#map {
+  height: 500px;
+}
+
+.intro-text .fa-angle-double-down {
+  opacity: 0;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  z-index: -1;
+}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+body {
+  min-width: initial;
+}
+
+.projects {
+  width: 100%;
+}
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
+.who {
+  padding: 100px 200px 100px 100px;
+}
+
+.clients {
+  padding: 100px 50px;
+}
+
+.clients .small {
+  width: 100%;
+}
+
+#map {
+  height: 500px;
+}
+
+.intro-text .fa-angle-double-down {
+  opacity: 0;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  z-index: -1;
+}
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+body {
+  min-width: initial;
+}
+
+.projects {
+  width: 100%;
+}
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
+.who {
+  padding: 100px 200px 100px 100px;
+}
+
+.clients {
+  padding: 100px 50px;
+}
+
+.clients .small {
+  width: 100%;
+}
+
+#map {
+  height: 500px;
+}
+
+.intro-text .fa-angle-double-down {
+  opacity: 0;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  z-index: -1;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+body {
+  min-width: initial;
+}
+
+.projects {
+  width: 100%;
+}
+
+#home-intro {
+  background-attachment: initial;
+}
+
+#theaterengine-intro {
+  background-attachment: initial;
+}
+
+#nissan-intro {
+  background-attachment: initial;
+}
+
+#goodsantiques-intro {
+  background-attachment: initial;
+}
+
+.who {
+  padding: 100px 200px 100px 100px;
+}
+
+.clients {
+  padding: 100px 50px;
+}
+
+.clients .small {
+  width: 100%;
+}
+
+#map {
+  height: 500px;
+}
+
+.intro-text .fa-angle-double-down {
+  opacity: 0;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  z-index: -1;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
