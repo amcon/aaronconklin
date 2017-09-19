@@ -822,6 +822,18 @@ body {
   padding: 0;
 }
 
+#te-who .white {
+  font-size: 35px;
+}
+
+#te-who p {
+  font-size: 30px;
+}
+
+#te-who .supplement {
+  font-size: 20px;
+}
+
 .intro-text .fa-angle-double-down {
   opacity: 0;
   font-size: 0;
@@ -933,6 +945,18 @@ body {
   padding: 0;
 }
 
+#te-who .white {
+  font-size: 35px;
+}
+
+#te-who p {
+  font-size: 30px;
+}
+
+#te-who .supplement {
+  font-size: 20px;
+}
+
 .intro-text .fa-angle-double-down {
   opacity: 0;
   font-size: 0;
@@ -1044,6 +1068,18 @@ body {
   padding: 0;
 }
 
+#te-who .white {
+  font-size: 35px;
+}
+
+#te-who p {
+  font-size: 30px;
+}
+
+#te-who .supplement {
+  font-size: 20px;
+}
+
 .intro-text .fa-angle-double-down {
   opacity: 0;
   font-size: 0;
@@ -1153,6 +1189,18 @@ body {
 #map {
   height: 600px;
   padding: 0;
+}
+
+#te-who .white {
+  font-size: 35px;
+}
+
+#te-who p {
+  font-size: 30px;
+}
+
+#te-who .supplement {
+  font-size: 20px;
 }
 
 .intro-text .fa-angle-double-down {
