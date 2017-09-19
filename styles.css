@@ -263,6 +263,7 @@ nav a:hover {
   margin: 0 auto;
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 75px;
 }
 
 .projects {
@@ -299,8 +300,7 @@ nav a:hover {
 .project .project-img-overlay {
   height: 230px;
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 25px;
+  margin: 25px 0;
   z-index: 1;
   position: relative;
   background-color: rgb(0, 5, 15);
@@ -531,3 +531,111 @@ nav a:hover {
   height: 400px;
   filter: grayscale(80%);
 }
+
+/* TheaterEngine */
+
+#theaterengine-intro {
+  background-image: url("images/theaterengine.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#theaterengine-intro .fa-bars {
+  background-color: rgb(133, 123, 131);
+  -webkit-text-stroke: 3px rgb(133, 123, 131);
+}
+
+#te-who {
+  background-color: rgb(133, 123, 131);
+}
+
+#te-who p {
+  font-size: 25px;
+}
+
+#te-who .white {
+  font-size: 30px;
+}
+
+.client-logo {
+  min-height: 400px;
+  padding: 150px;
+  box-sizing: border-box;
+  background-color: rgb(0, 5, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo img {
+  height: 100px;
+}
+
+#te-who .supplement, #ng-who .supplement, #ga-who .supplement {
+  font-size: 15px;
+}
+
+/* Nissan */
+
+#nissan-intro {
+  background-image: url("images/nissan-leaf.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+#ng-who {
+  min-height: 600px;
+}
+
+#ng-logo img {
+  height: 200px;
+}
+
+#ng-who p {
+  font-size: 25px;
+}
+
+#ng-who .white {
+  font-size: 30px;
+}
+
+/* Goods Antiques */
+
+#goodsantiques-intro {
+  background-image: url("images/about-page.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+#ga-logo img {
+  height: 50px;
+}
+
+#goodsantiques-intro .fa-bars {
+  background-color: rgb(80, 83, 80);
+  -webkit-text-stroke: 3px rgb(80, 83, 80);
+}
+
+#ga-who {
+  min-height: 600px;
+}
+
+#ga-who {
+  background-color: rgb(80, 83, 80);
+}
+
+#ga-who p {
+  font-size: 25px;
+}
+
+#ga-who .white {
+  font-size: 30px;
+}
+
+

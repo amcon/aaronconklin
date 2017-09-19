@@ -9,9 +9,7 @@ $('.fa-angle-double-left').click(function(event) {
 });
 
 $('.fa-angle-double-down').click(function(event) {
-  const who = $('.who').position().top;
-
-  $('body').animate({scrollTop: who}, 500)
+  $('body').animate({scrollTop: 635}, 500)
 });
 
 
