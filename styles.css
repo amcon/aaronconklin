@@ -52,7 +52,8 @@ nav .fa-angle-double-left:hover {
 nav a {
   text-decoration: none;
   color: white;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   text-transform: lowercase;
   margin-top: 15px;
   opacity: 0;
@@ -88,7 +89,7 @@ nav a:hover {
 .intro header h1 {
   font-family: 'Comfortaa', cursive;
   font-weight: 100;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 }
 
 .intro header .fa-bars {
@@ -99,8 +100,8 @@ nav a:hover {
   width: 70px;
   font-size: 30px;
   font-weight: lighter;
-  background-color: rgb(40, 80, 106);
-  -webkit-text-stroke: 3px rgb(40, 80, 106);
+  background-color: rgb(31, 45, 77);
+  -webkit-text-stroke: 3px rgb(31, 45, 77);
   position: fixed;
   top: 125px;
   left: 85%;
@@ -121,7 +122,8 @@ nav a:hover {
 }
 
 .intro-text p {
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   font-weight: lighter;
   font-size: 25px;
   display: block;
@@ -164,7 +166,7 @@ nav a:hover {
 
 .footer h1 {
   font-weight: 100;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 }
 
 .footer footer {
@@ -212,7 +214,7 @@ nav a:hover {
 .who {
   min-height: 500px;
   padding: 100px 200px 100px 100px;
-  background-color: rgb(40, 80, 106);
+  background-color: rgb(31, 45, 77);
   color: white;
   display: flex;
   flex-direction: column;
@@ -222,7 +224,8 @@ nav a:hover {
 
 .who p {
   font-size: 30px;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   font-weight: lighter;
   line-height: 60px;
   color: rgb(209, 207, 211);
@@ -266,6 +269,7 @@ nav a:hover {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 75px;
+  letter-spacing: 5px;
 }
 
 .projects {
@@ -428,7 +432,8 @@ nav a:hover {
 
 .me p {
   font-size: 30px;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   font-weight: lighter;
   line-height: 60px;
   color: rgb(0, 5, 15);
@@ -477,7 +482,8 @@ nav a:hover {
 
 .skills-box p {
   font-size: 25px;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   display: block;
   width: 70%;
   margin: 0;
@@ -514,7 +520,8 @@ nav a:hover {
 
 #contact-intro .intro-text p {
   margin: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
   color: rgb(133, 123, 130);
   font-size: 30px;
 }
@@ -590,7 +597,13 @@ nav a:hover {
   background-size: 100%;
 }
 
+#nissan-intro .fa-bars {
+  background-color: rgb(40, 80, 106);
+  -webkit-text-stroke: 3px rgb(40, 80, 106);
+}
+
 #ng-who {
+  background-color: rgb(40, 80, 106);
   min-height: 600px;
 }
 
@@ -776,12 +789,14 @@ body {
 
 .project h4 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 .project h2 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 #home-intro {
@@ -936,12 +951,14 @@ body {
 
 .project h4 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 .project h2 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 #home-intro {
@@ -1096,12 +1113,14 @@ body {
 
 .project h4 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 .project h2 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 #home-intro {
@@ -1256,12 +1275,14 @@ body {
 
 .project h4 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 .project h2 {
   font-size: 0;
-  font-family: 'Rufina', serif;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 2px;
 }
 
 #home-intro {
