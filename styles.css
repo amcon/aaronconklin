@@ -774,6 +774,10 @@ and (orientation: portrait) {
   padding-right: 50px;
 }
 
+.footer {
+  padding-bottom: 75px;
+}
+
 body {
   min-width: initial;
 }
@@ -936,6 +940,10 @@ and (orientation: portrait) {
   padding-right: 50px;
 }
 
+.footer {
+  padding-bottom: 75px;
+}
+
 body {
   min-width: initial;
 }
@@ -1098,6 +1106,10 @@ and (orientation: portrait) {
   padding-right: 50px;
 }
 
+.footer {
+  padding-bottom: 75px;
+}
+
 body {
   min-width: initial;
 }
@@ -1258,6 +1270,10 @@ and (orientation: portrait) {
 .main {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.footer {
+  padding-bottom: 75px;
 }
 
 body {
