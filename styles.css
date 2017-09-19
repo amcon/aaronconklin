@@ -760,7 +760,24 @@ body {
 }
 
 .projects {
+  flex-direction: column;
   width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project .project-img-overlay {
+  height: 600px;
+}
+
+.project h4 {
+  font-size: 18px;
+}
+
+.project h2 {
+  font-size: 20px;
 }
 
 #home-intro {
@@ -781,6 +798,15 @@ body {
 
 .who {
   padding: 100px 200px 100px 50px;
+}
+
+.who .small {
+  font-size: 18px;
+  width: 160px;
+}
+
+.clients .small {
+  font-size: 20px;
 }
 
 .clients {
@@ -844,7 +870,24 @@ body {
 }
 
 .projects {
+  flex-direction: column;
   width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project .project-img-overlay {
+  height: 600px;
+}
+
+.project h4 {
+  font-size: 18px;
+}
+
+.project h2 {
+  font-size: 20px;
 }
 
 #home-intro {
@@ -865,6 +908,15 @@ body {
 
 .who {
   padding: 100px 200px 100px 50px;
+}
+
+.who .small {
+  font-size: 18px;
+  width: 160px;
+}
+
+.clients .small {
+  font-size: 20px;
 }
 
 .clients {
@@ -928,7 +980,24 @@ body {
 }
 
 .projects {
+  flex-direction: column;
   width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project .project-img-overlay {
+  height: 600px;
+}
+
+.project h4 {
+  font-size: 18px;
+}
+
+.project h2 {
+  font-size: 20px;
 }
 
 #home-intro {
@@ -949,6 +1018,15 @@ body {
 
 .who {
   padding: 100px 200px 100px 50px;
+}
+
+.who .small {
+  font-size: 18px;
+  width: 160px;
+}
+
+.clients .small {
+  font-size: 20px;
 }
 
 .clients {
@@ -1012,7 +1090,24 @@ body {
 }
 
 .projects {
+  flex-direction: column;
   width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project .project-img-overlay {
+  height: 600px;
+}
+
+.project h4 {
+  font-size: 18px;
+}
+
+.project h2 {
+  font-size: 20px;
 }
 
 #home-intro {
@@ -1033,6 +1128,15 @@ body {
 
 .who {
   padding: 100px 200px 100px 50px;
+}
+
+.who .small {
+  font-size: 18px;
+  width: 160px;
+}
+
+.clients .small {
+  font-size: 20px;
 }
 
 .clients {
