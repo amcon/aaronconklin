@@ -806,6 +806,10 @@ body {
   width: 160px;
 }
 
+.me {
+  padding-bottom: 150px;
+}
+
 .clients .small {
   font-size: 20px;
 }
@@ -959,6 +963,10 @@ body {
   width: 160px;
 }
 
+.me {
+  padding-bottom: 150px;
+}
+
 .clients .small {
   font-size: 20px;
 }
@@ -1112,6 +1120,10 @@ body {
   width: 160px;
 }
 
+.me {
+  padding-bottom: 150px;
+}
+
 .clients .small {
   font-size: 20px;
 }
@@ -1263,6 +1275,10 @@ body {
 .who .small {
   font-size: 18px;
   width: 160px;
+}
+
+.me {
+  padding-bottom: 150px;
 }
 
 .clients .small {
