@@ -71,7 +71,14 @@ nav a:hover {
   cursor: pointer;
 }
 
+.flex-parent {
+  display: table;
+  min-height: 535px;
+  width: 100%;
+}
+
 .intro {
+  height: 100%;
   min-height: 535px;
   display: flex;
   flex-direction: column;
