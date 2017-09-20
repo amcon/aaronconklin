@@ -33,13 +33,13 @@ var marker;
 
 function myMap() {
   mapOptions = {
-      center: new google.maps.LatLng(40.694812, -73.952645),
+      center: new google.maps.LatLng(40.695062, -73.949799),
       zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
   map = new google.maps.Map(document.getElementById("map"), mapOptions);
-  marker = new google.maps.Marker({position: new google.maps.LatLng(40.694812, -73.952645)});
+  marker = new google.maps.Marker({position: new google.maps.LatLng(40.695062, -73.949799)});
 
   marker.setMap(map);
 };
