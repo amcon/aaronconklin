@@ -799,6 +799,10 @@ body {
   margin-bottom: -65px;
 }
 
+.mq-projects #theaterengine {
+  margin-top: -65px;
+}
+
 .project .project-img-overlay {
   height: 600px;
 }
@@ -984,6 +988,10 @@ body {
   margin-bottom: -65px;
 }
 
+.mq-projects #theaterengine {
+  margin-top: -65px;
+}
+
 .project .project-img-overlay {
   height: 600px;
 }
@@ -1169,6 +1177,10 @@ body {
   margin-bottom: -65px;
 }
 
+.mq-projects #theaterengine {
+  margin-top: -65px;
+}
+
 .project .project-img-overlay {
   height: 600px;
 }
@@ -1352,6 +1364,10 @@ body {
 
 .project:last-of-type {
   margin-bottom: -65px;
+}
+
+.mq-projects #theaterengine {
+  margin-top: -65px;
 }
 
 .project .project-img-overlay {
