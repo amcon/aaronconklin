@@ -349,6 +349,9 @@ nav a:hover {
   margin: 0;
   font-weight: lighter;
   opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #nissan .project-img {
