@@ -443,6 +443,7 @@ nav a:hover {
 
 #about-intro .intro-text p {
   color: rgb(209, 207, 211);
+  width: 100%;
 }
 
 #about-intro .fa-bars {
