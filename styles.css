@@ -439,6 +439,7 @@ nav a:hover {
   margin: 0;
   box-sizing: border-box;
   border-bottom: 1px solid white;
+  margin-top: 60px;
 }
 
 #about-intro .intro-text p {
