@@ -9,7 +9,7 @@ $('.fa-angle-double-left').click(function(event) {
 });
 
 $('.fa-angle-double-down').click(function(event) {
-  $('body').animate({scrollTop: 635}, 500)
+  $('body, html').animate({scrollTop: 635}, 500)
 });
 
 
