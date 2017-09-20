@@ -219,6 +219,10 @@ nav a:hover {
   margin-right: 0;
 }
 
+#theaterengine-title:hover, #nissan-title:hover, #goodsantiques-title:hover {
+  cursor: pointer;
+}
+
 
 /* HOME PAGE */
 

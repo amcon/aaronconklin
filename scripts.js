@@ -1,5 +1,8 @@
 $(function() {
 
+window.sr = ScrollReveal();
+sr.reveal('.scroll-item', {origin: 'bottom', distance: '500px', duration: 1100, delay: 200});
+
 $('.fa-bars').click(function(event) {
   $('.nav').toggleClass('nav-open');
 });
@@ -53,6 +56,18 @@ $('#nissan').click(function(event) {
 });
 
 $('#goodsantiques').click(function(event) {
+  window.location.href = "goodsantiques.html";
+});
+
+$('#theaterengine-title').click(function(event) {
+  window.location.href = "theaterengine.html";
+});
+
+$('#nissan-title').click(function(event) {
+  window.location.href = "nissan.html";
+});
+
+$('#goodsantiques-title').click(function(event) {
   window.location.href = "goodsantiques.html";
 });
 
