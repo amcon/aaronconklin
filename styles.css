@@ -899,6 +899,16 @@ body {
   z-index: -1;
 }
 
+#about-intro .intro-text h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#about-intro .intro-text p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
 }
 
 @media only screen
@@ -1065,6 +1075,16 @@ body {
   z-index: -1;
 }
 
+#about-intro .intro-text h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#about-intro .intro-text p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
 }
 
 @media only screen
@@ -1231,6 +1251,16 @@ body {
   z-index: -1;
 }
 
+#about-intro .intro-text h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#about-intro .intro-text p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
 }
 
 @media only screen
@@ -1395,6 +1425,16 @@ body {
   border: none;
   position: relative;
   z-index: -1;
+}
+
+#about-intro .intro-text h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#about-intro .intro-text p {
+  font-size: 30px;
+  line-height: 45px;
 }
 
 }
