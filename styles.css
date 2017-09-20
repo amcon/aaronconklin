@@ -424,6 +424,8 @@ nav a:hover {
 #about-intro .intro-text {
   margin-bottom: 100px;
   width: 85%;
+  flex-basis: 85%;
+  flex: 1;
 }
 
 #about-intro .intro-text h2 {
