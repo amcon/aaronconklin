@@ -78,8 +78,6 @@ nav a:hover {
 .min-height-fix {
   flex: 0 0 auto;
   height: 635px; /* the "min-height" */
-  width: 1px; /* DEBUG */
-  background: red; /* DEBUG */
 }
 
 .intro {
@@ -169,8 +167,6 @@ nav a:hover {
 .footer-min-height-fix {
   flex: 0 0 auto;
   height: 400px; /* the "min-height" */
-  width: 1px; /* DEBUG */
-  background: red; /* DEBUG */
 }
 
 .footer {
