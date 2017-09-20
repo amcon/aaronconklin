@@ -439,11 +439,15 @@ nav a:hover {
   margin: 0;
   box-sizing: border-box;
   border-bottom: 1px solid white;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 #about-intro .intro-text p {
   color: rgb(209, 207, 211);
   width: 100%;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 #about-intro .fa-bars {
