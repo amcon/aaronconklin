@@ -284,14 +284,13 @@ nav a:hover {
   min-height: 400px;
   background-color: rgb(245, 245, 245);
   color: black;
-  padding: 100px 0;
+  padding: 100px;
   font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
 }
 
 .clients .small {
   display: block;
-  margin-left: 100px;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 75px;
@@ -302,7 +301,6 @@ nav a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 1100px;
   margin: 0 auto;
   letter-spacing: 2px;
 }
@@ -330,7 +328,7 @@ nav a:hover {
 }
 
 .project .project-img-overlay {
-  height: 230px;
+  height: 200px;
   width: 100%;
   margin: 25px 0;
   z-index: 1;
@@ -693,8 +691,8 @@ and (max-device-width : 1299px) {
     background-position: 0 -70px;
   }
 
-  .projects {
-    width: 1080px;
+  #home-intro {
+    background-size: 120%;
   }
 
 }
@@ -706,8 +704,8 @@ and (max-device-width : 1399px) {
     background-position: 0 -130px;
   }
 
-  .projects {
-    width: 1110px;
+  #home-intro {
+    background-size: 120%;
   }
 
   .project .project-img-overlay {
@@ -730,8 +728,9 @@ and (max-device-width : 1499px) {
     background-position: 0 -190px;
   }
 
-  .projects {
-    width: 1210px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -50px;
   }
 
   .project .project-img-overlay {
@@ -754,8 +753,9 @@ and (max-device-width : 1599px) {
     background-position: 0 -240px;
   }
 
-  .projects {
-    width: 1300px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -75px;
   }
 
   .project .project-img-overlay {
@@ -778,12 +778,13 @@ and (max-device-width : 1699px) {
     background-position: 0 -305px;
   }
 
-  #goodsantiques-intro {
-    background-position: 0 -120px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -100px;
   }
 
-  .projects {
-    width: 1430px;
+  #goodsantiques-intro {
+    background-position: 0 -120px;
   }
 
   .project .project-img-overlay {
@@ -806,16 +807,17 @@ and (max-device-width : 1799px) {
     background-position: 0 -350px;
   }
 
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -100px;
+  }
+
   #goodsantiques-intro {
     background-position: 0 -150px;
   }
 
-  .projects {
-    width: 1510px;
-  }
-
   .project .project-img-overlay {
-    height: 330px;
+    height: 310px;
   }
 
   .project h2 {
@@ -834,12 +836,13 @@ and (max-device-width : 1899px) {
     background-position: 0 -390px;
   }
 
-  #goodsantiques-intro {
-    background-position: 0 -200px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -140px;
   }
 
-  .projects {
-    width: 1625px;
+  #goodsantiques-intro {
+    background-position: 0 -200px;
   }
 
   .project .project-img-overlay {
@@ -863,12 +866,13 @@ and (max-device-width : 1999px) {
     background-position: 0 -430px;
   }
 
-  #goodsantiques-intro {
-    background-position: 0 -220px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -140px;
   }
 
-  .projects {
-    width: 1700px;
+  #goodsantiques-intro {
+    background-position: 0 -220px;
   }
 
   .project .project-img-overlay {
@@ -891,12 +895,13 @@ and (max-device-width : 1999px) {
     background-position: 0 -458px;
   }
 
-  #goodsantiques-intro {
-    background-position: 0 -220px;
+  #home-intro {
+    background-size: 120%;
+    background-position-y: -160px;
   }
 
-  .projects {
-    width: 1800px;
+  #goodsantiques-intro {
+    background-position: 0 -220px;
   }
 
   .project .project-img-overlay {
